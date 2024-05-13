@@ -176,7 +176,7 @@ void menu(nodo* &primero, nodo* &ultimo, int opcion){
         break;
     case 9:
         cout<<"Saliendo...\n";
-        if(primero == nullptr) eliminarElementos(primero);
+        if(primero != nullptr) eliminarElementos(primero);
         break;
     default:
         cout<<"Opcion no valida. \n";
